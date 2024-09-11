@@ -17,7 +17,7 @@ This project is divided into three main parts:
    - Warning screens if the player does not input their name, X/O selection, or both.
 
 3. **Custom Linux Image (Yocto)**  
-   We created a custom Linux image using Yocto, which includes JDK, SDK for handling JavaFX, and a driver for the joystick. The game automatically pauses if the joystick is unplugged and resumes once reconnected.
+   We created a custom Linux image using Yocto, which includes JDK for handling JavaFX, and a driver for the joystick. The game automatically pauses if the joystick is unplugged and resumes once reconnected.
 
 ## Features
 - **Joystick Control**: Reads input from the joystick in real-time, sending it from C to Java through JNI. We handle edge cases, such as pausing the game when the joystick is unplugged.
@@ -52,7 +52,7 @@ This project is divided into three main parts:
    - Use the Minimax algorithm for the AI in single-player mode.
    
 3. **Custom Linux Image**:
-   - Use Yocto to include the required packages (JDK, SDK, joystick driver).
+   - Use Yocto to include the required packages (JDK, WIFI , joystick driver).
 
 ## How to Play
 1. Start the game from the home screen.
