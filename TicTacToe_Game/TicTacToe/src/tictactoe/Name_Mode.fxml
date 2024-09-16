@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="810.0" prefWidth="1180.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.Name_ModeController">
+   <children>
+      <ImageView fitHeight="810.0" fitWidth="1180.0">
+         <image>
+            <Image url="@../images/image2.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="20.0" layoutY="772.0" prefHeight="26.0" prefWidth="321.0" text="© Luxsoft&amp;ITI@SmashERS">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="278.0" fitWidth="260.0" layoutX="152.0" layoutY="55.0">
+         <image>
+            <Image url="@../images/Xo_Hd_Transparent__Robot_Xo_Concept_Logo_Design__Logo__Esport__Gaming_PNG_Image_For_Free_Download-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="Vbtn_Meduim" layoutX="171.0" layoutY="446.0" mnemonicParsing="false" onAction="#Hfunc_Meduim" prefHeight="78.0" prefWidth="225.0" style="-fx-background-color: #ffe93f;" styleClass="button-21" stylesheets="@../values/style1_1.css" text="Meduim" AnchorPane.leftAnchor="171.0" />
+      <RadioButton fx:id="Vbtn_Hard" layoutX="169.0" layoutY="558.0" mnemonicParsing="false" onAction="#Hfunc_Hard" prefHeight="78.0" prefWidth="225.0" style="-fx-background-color: #ff2e45;" styleClass="button-21" stylesheets="@../values/style1_1.css" text="Hard" AnchorPane.leftAnchor="169.0" />
+      <RadioButton fx:id="Vbtn_Easy" layoutX="162.0" layoutY="333.0" mnemonicParsing="false" onAction="#Hfunc_Easy" prefHeight="78.0" prefWidth="225.0" style="-fx-background-color: #00e4ca;" styleClass="button-21" stylesheets="@../values/style1_1.css" text="Easy" AnchorPane.leftAnchor="171.0" />
+      <Pane layoutX="922.0" layoutY="725.0" prefHeight="78.0" prefWidth="268.0">
+         <children>
+            <Button fx:id="Vbtn_Back" layoutX="98.0" mnemonicParsing="false" onAction="#HFunc_Back" prefHeight="80.0" prefWidth="161.0" style="-fx-background-color: transparent;" styleClass="button-21" stylesheets="@../values/style1_1.css" textAlignment="RIGHT" />
+            <ImageView fitHeight="80.0" fitWidth="149.0" layoutX="100.0" mouseTransparent="true">
+               <image>
+                  <Image url="@../images/back.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

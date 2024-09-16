@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="810.0" prefWidth="1180.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.MenuController">
+   <children>
+      <ImageView fitHeight="810.0" fitWidth="1180.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../images/image2.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="29.0" layoutY="771.0" prefHeight="28.0" prefWidth="327.0" text="© Luxsoft&amp;ITI@SmashERS">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="Vbtn_Multi" layoutX="123.0" layoutY="452.0" mnemonicParsing="false" onAction="#Hfunc_Multi" prefHeight="71.0" prefWidth="249.0" style="-fx-background-color: #3a8fcf;" styleClass="button-21" stylesheets="@../values/style1.css" text="Multi-Player" textFill="WHITE" AnchorPane.leftAnchor="115.0">
+         <font>
+            <Font name="Tempus Sans ITC" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="Vbtn_Exit" layoutX="115.0" layoutY="559.0" mnemonicParsing="false" onAction="#Hfunc_Exit" prefHeight="71.0" prefWidth="249.0" style="-fx-background-color: #3a8fcf;" styleClass="button-21" stylesheets="@../values/style1.css" text="Exit" textFill="WHITE" AnchorPane.leftAnchor="115.0">
+         <font>
+            <Font name="Tempus Sans ITC" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="Vbtn_Single" layoutX="117.0" layoutY="343.0" mnemonicParsing="false" onAction="#Hfunc_Single" prefHeight="71.0" prefWidth="249.0" style="-fx-background-color: #3a8fcf;" styleClass="button-21" stylesheets="@../values/style1.css" text="Single Player" textFill="WHITE" AnchorPane.leftAnchor="117.0">
+         <font>
+            <Font name="Tempus Sans ITC" size="36.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="278.0" fitWidth="260.0" layoutX="116.0" layoutY="80.0">
+         <image>
+            <Image url="@../images/Xo_Hd_Transparent__Robot_Xo_Concept_Logo_Design__Logo__Esport__Gaming_PNG_Image_For_Free_Download-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

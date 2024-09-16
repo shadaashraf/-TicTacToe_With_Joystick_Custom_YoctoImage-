@@ -1,0 +1,17 @@
+/* styles.css */
+.button-normal {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+}
+
+.button-hover {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, #00ff00, 10, 0, 0, 0);
+}
+
+.button-neon {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, #00ff00, 20, 0, 0, 0);
+}

@@ -1,0 +1,19 @@
+/* General styles for text fields */
+.text-field-p2 {
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-size: 16px;
+    -fx-padding: 5px;
+    -fx-background-radius: 8px;
+    -fx-border-width: 3px; /* Increased border width for a bolder look */
+    -fx-border-color: #ff162f; /* Light red border color */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 4, 0.0, 0, 2);
+    -fx-background-color: #f0f8ff; /* Light blue background */
+    -fx-margin-bottom: 20px;
+}
+
+/* Neon effect for focus state */
+.text-field-p2:focused {
+    -fx-border-color: #ff9999; /* Light red border color on focus */
+    -fx-effect: dropshadow(gaussian, rgba(255, 153, 153, 0.8), 8, 0.0, 0, 4),
+                  dropshadow(gaussian, rgba(255, 153, 153, 0.6), 15, 0.0, 0, 8);
+}

@@ -1,0 +1,26 @@
+    /* styles.css */
+.button-21 {
+    -fx-alignment: center;
+    -fx-background-color: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    -fx-background-radius: 100px;
+    -fx-border-radius: 100px;
+    -fx-padding: 6px 20px;
+    -fx-font-family: "Tempus Sans ITC";
+    -fx-font-size: 30px;    
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-effect: none; /* No effect by default */
+    -fx-transition: background-color 0.2s, -fx-effect 0.2s; /* Transition for smooth effect */
+}
+.button-21:hover {
+    -fx-background-color: linear-gradient(1deg, #4F58FD, #149BF3 99%); /* Maintain gradient on hover */
+    -fx-effect: dropshadow(gaussian, rgba(255, 0, 0, 0.8), 20, 0.8, 0, 0); /* Neon red glow effect */
+}
+.button-21:focused {
+    -fx-effect: dropshadow(four-pass-box, rgba(40, 170, 255, 0.25), 10, 0, 0, 0);
+}
+
+.button-21:focused:pressed {
+    -fx-effect: none; /* Remove effect on pressed if needed */
+}
+
